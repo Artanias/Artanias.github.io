@@ -7,7 +7,7 @@ body {
 }
 
 .card {
-    margin: 1em 2em;
+    margin: 1em 1em;
     padding: 0.8em 0px;
     border-radius: 20px;
     box-shadow: 0 30px 60px #cdd;
@@ -47,8 +47,8 @@ h2 {
 }
 
 .card-addit-edu {
-    margin: 0.2em 1.5em;
-    font-size: 1.3em;
+    margin: 0.2em 1.7em;
+    font-size: 1em;
     font-weight: bold;
 }
 
