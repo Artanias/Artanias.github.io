@@ -2,14 +2,13 @@ body {
     margin: 0px;
     font-family: Tahoma;
     line-height: 1.5;
-    font-size: 18px;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(150,152,151,0.8435749299719888) 100%);
 }
 
 .card {
-    margin: 20px calc(100vw / 5);
-    padding: 20px 0px;
+    margin: 1em 4em;
+    padding: 0.8em 0px;
     border-radius: 20px;
     box-shadow: 0 30px 60px #cdd;
     background: rgb(255,255,255);
@@ -19,37 +18,37 @@ body {
 .card-photo {
     width: calc(100vw / 6);
     display: block;
-    margin: 30px auto;
+    margin: 0.5em auto;
     border-radius: 50%;
 }
 
 .card-title {
     font-family: Arial;
-    font-size: 25px;
+    font-size: 1.4em;
     text-align: center;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 p {
-    margin: 5px 30px;
-    font-size: 15px;
+    margin: 0.2em 2em;
+    font-size: 0.9em;
 }
 
 h2 {
-    margin: 10px 30px;
-    font-size: 20px;
+    margin: 0.5em 1.2em;
+    font-size: 1.4em;
 }
 
 .card-list {
-    margin-left: 10px;
-    margin-right: 30px;
-    font-size: 15px;
+    margin-left: 1em;
+    margin-right: 2em;
+    font-size: 0.9em;
     text-align: justify;
 }
 
 .card-addit-edu {
-    margin: 5px 30px;
-    font-size: 18px;
+    margin: 0.2em 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 
