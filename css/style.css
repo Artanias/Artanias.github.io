@@ -1,15 +1,15 @@
 a {
    color: #454545;
-   border: 2px solid transparent;
+   border: 0.1em solid transparent;
    text-decoration: none;
    display: inline-block;
-   padding: 1px 3px;
+   padding: 0.1em 0.1em;
    transition: .3s ease-in-out;
 }
 
 a:hover {
-   border: 1px solid #30302f;
-   transform: scaleX(1.02);
+   border: 0.1em solid #30302f;
+   transform: scaleX(1.01);
 }
 
 body {
@@ -18,6 +18,14 @@ body {
     line-height: 1.5;
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(150,152,151,0.8435749299719888) 100%);
+}
+
+details {
+    padding: 0.3em 0em;
+    margin: 0.2em 1.7em;
+    margin-bottom: .5rem;
+    box-shadow: 0 .1rem 1rem -.5rem rgba(0,0,0,.4);
+    border-radius: 1em;
 }
 
 h2 {
@@ -36,7 +44,23 @@ p {
     border-radius: 20px;
     box-shadow: 0 30px 60px #cdd;
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(235,235,235,1) 0%, rgba(250,252,251,0.8435749299719888) 90%);
+    background: linear-gradient(
+        90deg,
+        rgba(235,235,235,1) 0%,
+        rgba(250,252,251,0.84) 90%
+    );
+}
+
+.card-addit-edu {
+    margin: 0em 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.card-list {
+    margin: 0em;
+    font-size: 0.9em;
+    text-align: justify;
 }
 
 .card-photo {
@@ -53,17 +77,11 @@ p {
     margin-bottom: 0px;
 }
 
-.card-list {
+.margin {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
     margin-left: 1em;
     margin-right: 2em;
-    font-size: 0.9em;
-    text-align: justify;
-}
-
-.card-addit-edu {
-    margin: 0.2em 1.7em;
-    font-size: 1em;
-    font-weight: bold;
 }
 
 .short-info {
