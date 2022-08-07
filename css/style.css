@@ -59,6 +59,7 @@ p {
 
 .card-list {
     margin: 0em;
+    margin-right: 2em;
     font-size: 0.9em;
     text-align: justify;
 }
@@ -81,7 +82,6 @@ p {
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-left: 1em;
-    margin-right: 2em;
 }
 
 .short-info {
